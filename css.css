@@ -1,0 +1,26 @@
+body 
+{
+	background-color: #4682B4;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+}					
+
+#sprite
+{
+  width: 98px;
+  height: 126px;
+  border: 5px solid blue;
+}
+
+.caminar
+{
+  background: url("C:/img/sprite.png") no-repeat top left;
+}
+
+
+.cinco{ background-position: 0 0; width: 72px; height: 69px; } 
+.cuatro{ background-position: -82px 0; width: 72px; height: 69px; } 
+.dos{ background-position: -164px 0; width: 72px; height: 69px; } 
+.tres{ background-position: -246px 0; width: 72px; height: 69px; } 
+.uno{ background-position: -328px 0; width: 72px; height: 69px; } 
