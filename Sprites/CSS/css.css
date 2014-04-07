@@ -1,0 +1,29 @@
+body 
+{
+	background: gray;
+	
+}					
+
+#sprite
+{
+  /*
+  margin-top: 12px;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-image: url(fondo.jpg);
+  */
+  width: 105px;
+  height: 125px;
+}
+
+
+.container  
+	{
+    	background: url(sprite.png) no-repeat top left;
+	}
+
+.caminar_1{ background-position: 0 0; width: 98px; height: 128px; } 
+.caminar_2{ background-position: -148px 0; width: 98px; height: 128px; } 
+.caminar_3{ background-position: -296px 0; width: 98px; height: 128px; } 
+.caminar_4{ background-position: -444px 0; width: 98px; height: 128px; } 
+.parar{ background-position: -592px 0; width: 98px; height: 128px; }
